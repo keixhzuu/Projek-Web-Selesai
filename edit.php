@@ -136,7 +136,7 @@ $photo = $result->fetch_assoc();
                     <option value="style" <?= $photo['kategori'] == 'style' ? 'selected' : ''; ?>>Style</option>
                     <option value="selebriti" <?= $photo['kategori'] == 'selebriti' ? 'selected' : ''; ?>>Selebriti</option>
                     <option value="seni" <?= $photo['kategori'] == 'seni' ? 'selected' : ''; ?>>Seni</option>
-                    <option value="hiburan" <?= $photo['kategori'] == 'hiburan' ? 'selected' : ''; ?>>Seni</option>
+                    <option value="hiburan" <?= $photo['kategori'] == 'hiburan' ? 'selected' : ''; ?>>Hiburan</option>
                 <!-- Add more options as needed -->
             </select>
         </div>
