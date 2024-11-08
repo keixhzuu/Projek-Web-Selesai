@@ -65,6 +65,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             color: #888;
             margin-top: 15px;
         }
+        .form-group label {
+        display: block;
+        text-align: left;
+        font-size: 0.9rem; 
+        color: #555; 
+        margin-bottom: 5px;
+}
+
     </style>
 </head>
 <body>
@@ -89,12 +97,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <p class="text-muted">Dapatkan ide-ide baru untuk dicoba</p>
             <form method="POST" action="">
                 <div class="form-group">
+                    <label for="email">Email</label>
                     <input type="email" class="form-control" placeholder="Email" name="email" required>
                 </div>
                 <div class="form-group">
+                    <label for="password">Password</label>
                     <input type="password" class="form-control" placeholder="Buat kata sandi" name="password" required>
                 </div>
                 <div class="form-group">
+                    <label for="date">Tanggal Lahir</label>
                     <input type="date" class="form-control" name="ttl" required>
                 </div>
                 <input type="hidden" name="role" value="user">
